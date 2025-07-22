@@ -5,13 +5,13 @@
 
 1. Create environment file `.env` with following variables.
 ```
-MAIL_HOST=
-MAIL_PORT=
-MAIL_AUTH_USER=
-MAIL_AUTH_PASS=
-MAIL_FROM_ADDRESS=
-COACH_PHONE=
-COACH_NAME=
+MAIL_HOST=smtp.example.com
+MAIL_PORT=587
+MAIL_AUTH_USER=user@example.com
+MAIL_AUTH_PASS='abcd 1234 efgh 5678'
+MAIL_FROM_ADDRESS='"Pepito Perez" <user@example.com>'
+COACH_PHONE=321123456
+COACH_NAME='Pepito Perez'
 ```
 2. Install the dependencies `npm install`.
 3. Execute the application `npm run start`.

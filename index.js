@@ -12,7 +12,7 @@ const CONFIG = {
   MAIL_AUTH_USER: process.env.MAIL_AUTH_USER || '',
   MAIL_AUTH_PASS: process.env.MAIL_AUTH_PASS || '',
   MAIL_FROM_ADDRESS: process.env.MAIL_FROM_ADDRESS || '',
-  COACH_PHONE: process.env.PHONE || '',
+  COACH_PHONE: process.env.COACH_PHONE || '',
   COACH_NAME: process.env.COACH_NAME || '',
 }
 
